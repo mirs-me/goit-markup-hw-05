@@ -72,7 +72,7 @@ svg {
 
 .logo-blue-web {color:var(--iris);
     }
-.logo:hover, .logo:focus {color: var(--ocean);}
+.logo:hover, .logo:focus {color: inherit;}
 .navigation {display: flex;
                 gap: 40px;          
     }
@@ -258,7 +258,7 @@ svg {
     }
 .logo-footer:hover,
 .logo-footer:focus {
-    color: var(--ocean);
+    color: inherit;
 }
 .footer-description {font-size: 16px;
                     line-height: 1.5;
