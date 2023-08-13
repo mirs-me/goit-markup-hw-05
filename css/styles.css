@@ -11,8 +11,8 @@
     --grey: #2E2F42;
     --green: #31D0AA;
     --dairy: #fcfcfc;
-    --default-time: var(--default-time);
-    --default-timing-function: var(--default-timing-function);
+    --default-time: 250ms;
+    --default-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul, ol{ list-style: none;
     padding-left: 0;
@@ -332,8 +332,8 @@ svg {
     background-color: var(--iris);
     color: #fff;
     translate: 0 100% 0;
-    transition: translate var(--default-time);}
-.project-link:hover .project-image-description {translate: 0;}
+    transition: translate 250ms;}
+.project-image-wrapper:hover .project-image-description {translate: 0;}
 
 .customers-title {
     color: var(--navyblue);
